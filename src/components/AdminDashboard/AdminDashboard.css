@@ -1,0 +1,61 @@
+.AdminDashboard {
+  width: 90%;
+  margin: auto;
+}
+
+.tabs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.tab-head {
+  background: inherit;
+  color: #fdfdfd;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.tab-head:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  cursor: pointer;
+  color: #fdfdfd;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 2px solid;
+}
+
+input#search-field,
+button.search-btn {
+  color: white;
+  background: inherit;
+  font-size: 1rem;
+  padding: 0.4rem;
+  border: none;
+}
+
+button.search-btn {
+  cursor: pointer;
+}
+
+input#search-field:focus {
+  outline: none;
+}
+
+.search-wrapper {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.search-wrapper:focus-within {
+  border-bottom: 1px solid #fdfdfd;
+}
+
+.clear-search {
+  cursor: pointer;
+}
